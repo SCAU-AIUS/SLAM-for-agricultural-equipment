@@ -1,0 +1,36 @@
+%YAML:1.0
+
+#--------------------------------------------------------------------------------------------
+# Camera Parameters.
+#--------------------------------------------------------------------------------------------
+
+# Camera calibration and distortion parameters (OpenCV) 
+Camera.fx: 602.897
+Camera.fy: 602.837
+Camera.cx: 328.28
+Camera.cy: 241.4
+
+## It seems that not using it would yield better results.
+# Camera.k1: 0.12688917773776615
+# Camera.k2: -0.30043574920268373
+# Camera.p1: 0.0018647469000842086
+# Camera.p2: -5.3176324036614754e-05
+
+Camera.width: 640
+Camera.height: 480
+
+# Camera frames per second 
+Camera.fps: 30.0
+
+# IR projector baseline times fx (aprox.)
+Camera.bf: 40.0
+
+# Color order of the images (0: BGR, 1: RGB. It is ignored if images are grayscale)
+Camera.RGB: 1
+
+# Close/Far threshold. Baseline times.
+ThDepth: 40.0
+
+# Deptmap values factor 
+DepthMapFactor: 5000.0
+
